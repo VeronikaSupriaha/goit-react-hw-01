@@ -1,0 +1,63 @@
+
+.container{
+    padding-top: 16px; 
+    margin-top: 32px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    border-radius: 6px;
+    border: 2px solid  #000000;
+    width: 280px;
+}
+
+.profileDiv {
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileImg{
+        border: none;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        background-color: #000;
+}
+
+.bolidText {
+    margin-bottom: 12px;
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.greyText{
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 400;
+        color: #9b9ba1;
+        letter-spacing: 0.02em;
+}
+
+.profileUl{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+
+.profileLi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+    border: 1px solid #9b9ba1;
+    background-color: #cccccc;
+    width: 100%;
+}
+
+
